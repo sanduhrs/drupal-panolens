@@ -1,0 +1,55 @@
+panolens.js:
+  remote: https://github.com/pchen66/panolens.js
+  version: 0.11.0
+  license:
+    name: MIT
+    url: https://github.com/pchen66/panolens.js/blob/v0.11.0/LICENSE
+    gpl-compatible: true
+  js:
+    /libraries/panolens.js/build/panolens.js: {}
+  dependencies:
+    - panolens/three.js
+three.js:
+  remote: https://github.com/mrdoob/three.js
+  version: r105
+  license:
+    name: MIT
+    url: https://github.com/mrdoob/three.js/blob/r105/LICENSE
+    gpl-compatible: true
+  js:
+    /libraries/three.js/build/three.js: {}
+embed:
+  version: 0.1.0
+  license:
+    name: GPL-2-or-later
+    url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    gpl-compatible: true
+  css:
+    component:
+      css/panolens-embed.css: {}
+image-panorama:
+  version: 0.1.0
+  license:
+    name: GPL-2-or-later
+    url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    gpl-compatible: true
+  js:
+    js/panolens-image-panorama.js: {}
+  css:
+    component:
+      css/panolens.css: {}
+  dependencies:
+    - panolens/panolens.js
+video-panorama:
+  version: 0.1.0
+  license:
+    name: GPL-2-or-later
+    url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    gpl-compatible: true
+  js:
+    js/panolens-video-panorama.js: {}
+  css:
+    component:
+      css/panolens.css: {}
+  dependencies:
+    - panolens/panolens.js

@@ -1,0 +1,6 @@
+name: Panolens
+type: module
+description: Javascript 360 panorama viewer.
+package: Content display
+core: 8.x
+core_version_requirement: ^8 || ^9

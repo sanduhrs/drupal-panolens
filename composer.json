@@ -1,0 +1,14 @@
+{
+    "name": "drupal/panolens",
+    "type": "drupal-module",
+    "require": {
+        "ext-zip": "*"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^10"
+            }
+        }
+    }
+}

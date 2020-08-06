@@ -1,0 +1,6 @@
+panolens.embed:
+  path: '/panolens/embed'
+  defaults:
+    _controller: '\Drupal\panolens\Controller\PanolensEmbedController::render'
+  requirements:
+    _permission: 'access content'

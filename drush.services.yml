@@ -1,0 +1,5 @@
+services:
+  panolens.commands:
+    class: \Drupal\panolens\Commands\PanolensCommands
+    tags:
+      - { name: drush.command }
