@@ -57,7 +57,7 @@ class VideoPanoramaFormatter extends FileVideoFormatter {
       $embed_url = Url::fromRoute(
         'panolens.embed',
         [
-          'url' => $url->toString(),
+          'url' => $url->setAbsolute(FALSE)->toString(),
           'format' => 'video-panorama',
         ]
       );
