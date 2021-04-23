@@ -64,7 +64,7 @@ class ImagePanoramaFormatter extends ImageFormatter {
       $embed_url = Url::fromRoute(
         'panolens.embed',
         [
-          'url' => str_replace('%2F', '/', rawurlencode($url->toString()),
+          'url' => str_replace('%2F', '/', rawurlencode($url->setAbsolute(FALSE)->toString())),
           'format' => 'image-panorama',
         ]
       );
