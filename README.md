@@ -36,9 +36,11 @@ INSTALLATION
    https://www.drupal.org/node/1897420 for further information.
 
  * Run 
- 
+
+    ```
     drush panolens:download-three.js
     drush panolens:download-panolens 
+    ```
 
  or
 
