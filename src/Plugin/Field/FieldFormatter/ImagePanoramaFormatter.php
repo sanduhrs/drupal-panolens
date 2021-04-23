@@ -74,7 +74,7 @@ class ImagePanoramaFormatter extends ImageFormatter {
         '#tag' => 'iframe',
         '#item_attributes' => $item_attributes,
         '#attributes' => [
-          'src' => $embed_url->toString()),
+          'src' => $embed_url->toString(),
           'scrolling' => 'no',
           'class' => 'panolens--embed-iframe',
         ],
